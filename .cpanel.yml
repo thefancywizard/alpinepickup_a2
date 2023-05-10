@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/deepsea1/public_html/alpinepickup
-    - /bin/cp -a /home/deepsea1/repositories/alpinepickup_a2/* $DEPLOYPATH
+    - export DEPLOYPATH=/home/deepsea1/public_html/thedungeonsociety
+    - /bin/cp -a * $DEPLOYPATH
