@@ -757,10 +757,6 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
-// Automatically generated include for settings managed by ddev.
-if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
-  include __DIR__ . '/settings.ddev.php';
-}
 
 /**
  * Load local development override configuration, if available.
@@ -798,4 +794,10 @@ $settings['config_sync_directory'] = 'sites/default/files/config_BGYZcEIOx7-Pbjr
 if (isset($GLOBALS['request']) and
 '/alpinepickup/web/index.php' === $GLOBALS['request']->server->get('SCRIPT_NAME')) {
 $GLOBALS['request']->server->set('SCRIPT_NAME', '/index.php');
+}
+
+
+// Automatically generated include for settings managed by ddev.
+if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
+  include __DIR__ . '/settings.ddev.php';
 }
