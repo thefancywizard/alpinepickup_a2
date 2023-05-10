@@ -1,0 +1,6 @@
+name: Commerce Stripe Test
+type: module
+description: Testing module for Commerce Stripe
+package: Testing
+dependencies:
+  - commerce_stripe:commerce_stripe

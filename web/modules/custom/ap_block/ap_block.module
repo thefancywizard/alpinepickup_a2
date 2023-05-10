@@ -1,0 +1,15 @@
+<?php
+/**
+* Implements hook_theme().
+*/
+function ap_block_preprocess_block__hero_block(&$variables) {
+}
+
+function ap_block_theme_suggestions_block_alter(&$suggestions, $variables) {
+  $content = $variables['elements']['content'];
+  if (isset($content['#block_content']) && $content['#block_content'] instanceof \Drupal\block_content\BlockContentInterface) {
+    $suggestions[] = 'block__' . $content['#block_content']->bundle();
+  }
+}
+
+

@@ -1,0 +1,6 @@
+name: 'Commerce Recurring Test'
+type: module
+description: 'Test module for Commerce Recurring.'
+package: Testing
+dependencies:
+  - commerce_recurring:commerce_recurring

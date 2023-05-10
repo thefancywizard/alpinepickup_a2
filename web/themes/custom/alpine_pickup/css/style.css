@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-green: '#2d3b1e';
+    --light-green: '#7d845f';
+    --cream: '#ecdfc7';
+    --sienna: '#ca7339';
+}
+
+.branding > div,
+.branding > nav {
+    display: flex;
+    max-height: 10rem;
+}
+
+#block-alpine-pickup-branding > a > img {
+    max-height: 10rem;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li,
+.main-nav a.ap-signup {
+    margin-left: 1rem;
+}
+
+#block-alpine-pickup-local-tasks > ul {
+    display: flex;
+}
+
+#block-alpine-pickup-local-tasks > ul > li {
+    margin-right: 1rem;
+}
+
+#block-alpine-pickup-page-title {
+    display: none;
+}
+
+.hero {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 640px;
+    flex-direction: column;
+}
+
+.hero .contextual-region {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    z-index: -2;
+}
+
+.hero img {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 49% 45%;
+}
+
+.hero .layer {
+    background-color: #000;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
