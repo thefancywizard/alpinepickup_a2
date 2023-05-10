@@ -791,10 +791,12 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_BGYZcEIOx7-PbjrBQJ3xzBRTya3mbuH-YIQrnnHu2mao_yO3gIe3S_MdabGbHENBWX4G-26_Tw/sync';
 
-if (isset($GLOBALS['request']) and
-'/alpinepickup/web/index.php' === $GLOBALS['request']->server->get('SCRIPT_NAME')) {
-$GLOBALS['request']->server->set('SCRIPT_NAME', '/index.php');
-}
+// if (isset($GLOBALS['request']) and
+// '/alpinepickup/web/index.php' === $GLOBALS['request']->server->get('SCRIPT_NAME')) {
+// $GLOBALS['request']->server->set('SCRIPT_NAME', '/index.php');
+// }
+
+$settings['config_sync_directory'] = 'sites/default/sync';
 
 
 // Automatically generated include for settings managed by ddev.
