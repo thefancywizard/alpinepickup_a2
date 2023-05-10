@@ -1,0 +1,36 @@
+uuid: 779ce009-3edc-456f-8174-a1c448b060f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - options
+id: commerce_order_item.field_pickup_day
+field_name: field_pickup_day
+entity_type: commerce_order_item
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: monday
+      label: Monday
+    -
+      value: tuesday
+      label: Tuesday
+    -
+      value: wednesday
+      label: Wednesday
+    -
+      value: thursday
+      label: Thursday
+    -
+      value: friday
+      label: Friday
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

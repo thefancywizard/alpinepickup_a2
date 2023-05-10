@@ -1,0 +1,7 @@
+uuid: 2f38cf1f-6068-40d5-b356-5efc02894a68
+langcode: en
+status: true
+dependencies: {  }
+id: blocks
+label: Blocks
+weight: null

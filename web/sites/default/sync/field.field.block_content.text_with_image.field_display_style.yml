@@ -1,0 +1,23 @@
+uuid: 105ca568-b86c-4466-a5ad-33ba766243ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_image
+    - field.storage.block_content.field_display_style
+  module:
+    - options
+id: block_content.text_with_image.field_display_style
+field_name: field_display_style
+entity_type: block_content
+bundle: text_with_image
+label: 'Display style'
+description: 'Choose the layout for this component.'
+required: true
+translatable: false
+default_value:
+  -
+    value: img-left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

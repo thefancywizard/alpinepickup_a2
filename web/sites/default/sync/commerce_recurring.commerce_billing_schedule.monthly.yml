@@ -1,0 +1,24 @@
+uuid: 42c6df44-9345-4606-9df2-5ae45f2f4ba5
+langcode: en
+status: true
+dependencies: {  }
+id: monthly
+label: Monthly
+displayLabel: Monthly
+billingType: prepaid
+combineSubscriptions: false
+retrySchedule:
+  - 1
+  - 3
+  - 5
+unpaidSubscriptionState: canceled
+plugin: fixed
+configuration:
+  trial_interval: {  }
+  interval:
+    number: 1
+    unit: month
+  start_month: 1
+  start_day: 1
+prorater: proportional
+proraterConfiguration: {  }

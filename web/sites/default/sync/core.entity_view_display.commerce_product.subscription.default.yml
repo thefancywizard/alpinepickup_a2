@@ -1,0 +1,48 @@
+uuid: be4aa9d3-f0ed-4eaa-a314-ea5bc371c514
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.subscription
+    - field.field.commerce_product.subscription.body
+  module:
+    - commerce_product
+    - layout_builder
+    - layout_discovery
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: commerce_product.subscription.default
+targetEntityType: commerce_product
+bundle: subscription
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

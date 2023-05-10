@@ -1,0 +1,19 @@
+uuid: 14a62410-278e-4a8a-a292-c69e6a51d7ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - ap_field
+    - block_content
+id: block_content.field_hero_buttons
+field_name: field_hero_buttons
+entity_type: block_content
+type: multibutton
+settings: {  }
+module: ap_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

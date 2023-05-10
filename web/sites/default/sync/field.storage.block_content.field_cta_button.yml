@@ -1,0 +1,19 @@
+uuid: 928cac9a-97fa-440f-b41a-38b834556415
+langcode: en
+status: true
+dependencies:
+  module:
+    - ap_field
+    - block_content
+id: block_content.field_cta_button
+field_name: field_cta_button
+entity_type: block_content
+type: multibutton
+settings: {  }
+module: ap_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

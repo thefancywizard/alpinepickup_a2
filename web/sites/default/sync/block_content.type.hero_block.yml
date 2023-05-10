@@ -1,0 +1,8 @@
+uuid: e4348a05-3eb3-4824-af24-118cb35b1b38
+langcode: en
+status: true
+dependencies: {  }
+id: hero_block
+label: 'Hero block'
+revision: 0
+description: 'Hero image with text and buttons.'

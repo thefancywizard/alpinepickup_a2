@@ -1,0 +1,26 @@
+uuid: 35dffe7f-bd75-4a70-bb20-b04f88aff9d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_braintree
+id: braintree
+label: 'Braintree sandbox'
+weight: null
+plugin: braintree_hostedfields
+configuration:
+  display_label: Braintree
+  mode: test
+  payment_method_types:
+    - credit_card
+    - paypal
+  collect_billing_information: true
+  merchant_id: syv94vhg24n4cz4h
+  public_key: qvnq4cgvsswcp6sk
+  private_key: 2b84e70104f042ece4dfef213937be3d
+  merchant_account_id:
+    USD: alpinepickup
+  3d_secure: ''
+  enable_credit_card_icons: true
+conditions: {  }
+conditionOperator: AND

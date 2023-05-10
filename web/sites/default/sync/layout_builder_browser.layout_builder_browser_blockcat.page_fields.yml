@@ -1,0 +1,7 @@
+uuid: 3079bb88-ed7f-4ac1-be02-1e7bef4a5096
+langcode: en
+status: true
+dependencies: {  }
+id: page_fields
+label: 'Page fields'
+weight: null

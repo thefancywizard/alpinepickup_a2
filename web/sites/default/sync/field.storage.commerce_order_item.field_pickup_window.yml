@@ -1,0 +1,33 @@
+uuid: 4e467672-96a3-4b2e-a9b7-ccd51ede4cd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - options
+id: commerce_order_item.field_pickup_window
+field_name: field_pickup_window
+entity_type: commerce_order_item
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: early
+      label: '8am - 10am'
+    -
+      value: mid-early
+      label: '10am - noon'
+    -
+      value: mid-late
+      label: '1pm - 3pm'
+    -
+      value: late
+      label: '3pm - 5pm'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

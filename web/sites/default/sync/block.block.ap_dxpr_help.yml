@@ -1,0 +1,22 @@
+uuid: 66f53e52-8861-46e0-978d-485ca1d24868
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ap_dxpr
+_core:
+  default_config_hash: mV9h_NNjjbPAWoq62QCf5yvnX3TeL4r49DFhFuRfidE
+id: ap_dxpr_help
+theme: ap_dxpr
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

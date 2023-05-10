@@ -1,0 +1,25 @@
+uuid: 63a67980-962f-4b61-a178-3bb4faee9570
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e6a2c3a-1d6b-465e-b6a3-b96d8b5e97dd'
+  module:
+    - block_content
+  theme:
+    - ap_dxpr
+id: footercopyright
+theme: ap_dxpr
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:2e6a2c3a-1d6b-465e-b6a3-b96d8b5e97dd'
+settings:
+  id: 'block_content:2e6a2c3a-1d6b-465e-b6a3-b96d8b5e97dd'
+  label: 'Footer copyright'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

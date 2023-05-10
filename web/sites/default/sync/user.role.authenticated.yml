@@ -1,0 +1,32 @@
+uuid: 93b1e017-0875-45e1-bb12-f96b044e68b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_checkout
+    - commerce_order
+    - commerce_product
+    - commerce_recurring
+    - contact
+    - media
+    - profile
+    - system
+id: authenticated
+label: 'Authenticated user'
+weight: 5
+is_admin: null
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'cancel own commerce_subscription'
+  - 'create default commerce_order'
+  - 'create recurring commerce_order'
+  - 'view default commerce_product'
+  - 'view media'
+  - 'view own commerce_order'
+  - 'view own commerce_subscription'
+  - 'view own profile'
+  - 'view subscription commerce_product'

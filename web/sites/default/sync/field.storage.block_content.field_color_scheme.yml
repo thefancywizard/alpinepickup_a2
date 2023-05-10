@@ -1,0 +1,30 @@
+uuid: 0e3494c3-2389-4fd6-9285-0eb9c772a7c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_color_scheme
+field_name: field_color_scheme
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: sage-bg
+      label: 'Sage background'
+    -
+      value: white-bg
+      label: 'White background'
+    -
+      value: sand-bg
+      label: 'Sand background'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

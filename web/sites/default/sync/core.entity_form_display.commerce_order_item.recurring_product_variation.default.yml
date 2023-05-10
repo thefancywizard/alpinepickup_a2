@@ -1,0 +1,68 @@
+uuid: 7cf52190-6f42-4a7a-9117-e2a581afbe2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.recurring_product_variation
+    - field.field.commerce_order_item.recurring_product_variation.billing_period
+    - field.field.commerce_order_item.recurring_product_variation.field_pickup_day
+    - field.field.commerce_order_item.recurring_product_variation.field_pickup_window
+    - field.field.commerce_order_item.recurring_product_variation.field_service_address
+    - field.field.commerce_order_item.recurring_product_variation.subscription
+  module:
+    - address
+    - commerce_order
+id: commerce_order_item.recurring_product_variation.default
+targetEntityType: commerce_order_item
+bundle: recurring_product_variation
+mode: default
+content:
+  field_pickup_day:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pickup_window:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_service_address:
+    type: address_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  purchased_entity:
+    type: entity_reference_autocomplete
+    weight: -1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  quantity:
+    type: commerce_quantity
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      step: '1'
+    third_party_settings: {  }
+  unit_price:
+    type: commerce_unit_price
+    weight: 2
+    region: content
+    settings:
+      require_confirmation: true
+    third_party_settings: {  }
+hidden:
+  adjustments: true
+  billing_period: true
+  created: true
+  subscription: true
+  total_price: true

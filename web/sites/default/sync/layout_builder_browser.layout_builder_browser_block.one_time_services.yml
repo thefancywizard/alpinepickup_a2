@@ -1,0 +1,11 @@
+uuid: 403b598e-332e-4e28-9ced-265699e5f7f4
+langcode: en
+status: true
+dependencies: {  }
+id: one_time_services
+block_id: 'views_block:services-block_1'
+category: blocks
+label: 'One-time Services'
+image_path: ''
+image_alt: ''
+weight: -100

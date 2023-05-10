@@ -1,0 +1,11 @@
+uuid: 850b2b79-6bf6-4f69-aa12-b526d21b68e2
+langcode: en
+status: true
+dependencies: {  }
+id: ian_perry
+block_id: 'block_content:aec12629-8d48-48ae-aedc-eff7f1753147'
+category: blocks
+label: 'Ian Perry'
+image_path: ''
+image_alt: ''
+weight: -100

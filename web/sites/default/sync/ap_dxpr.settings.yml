@@ -1,0 +1,229 @@
+_core:
+  default_config_hash: zQajkGLooFmxED5-HGBEi2HH0tavDqHcKue-gGomc8k
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://favicon_2.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://Alpine Pickup_Alpine Pickup Dark Green Transparent_0.png'
+  url: ''
+  use_default: false
+header_mobile_breakpoint: '1200'
+full_width_containers:
+  cnt_secondary_header: cnt_secondary_header
+  cnt_footer: cnt_footer
+  cnt_header_nav: 0
+  cnt_page_title: 0
+  cnt_content_top: 0
+  cnt_content: 0
+  cnt_content_bottom: 0
+full_width_content_types:
+  article: 0
+  page: 0
+block_design_regions:
+  sidebar_first: sidebar_first
+  sidebar_second: sidebar_second
+  content_top: content_top
+  content_bottom: content_bottom
+  secondary_header: 0
+  navigation: 0
+  slider: 0
+  header: 0
+  highlighted: 0
+  help: 0
+  content: 0
+  footer: 0
+boxed_layout: 1
+sticky_footer: 1
+boxed_layout_boxbg: '#ffffff'
+box_max_width: '1580'
+layout_max_width: '1280'
+gutter_horizontal: '30'
+gutter_vertical: '30'
+gutter_container: '60'
+gutter_horizontal_mobile: '30'
+gutter_vertical_mobile: '30'
+gutter_container_mobile: '30'
+body_line_height: '1.6'
+body_font_size: '16'
+nav_font_size: '18'
+headings_line_height: '1.1'
+scale_factor: '1.34'
+h1_font_size: '52'
+h2_font_size: '38'
+h3_font_size: '29'
+h4_font_size: '21'
+blockquote_font_size: '21'
+blockquote_line_height: '1.5'
+headings_letter_spacing: '0'
+headings_uppercase: 0
+headings_bold: 0
+body_mobile_font_size: '14'
+nav_mobile_font_size: '30'
+h1_mobile_font_size: '52'
+h2_mobile_font_size: '38'
+h3_mobile_font_size: '29'
+h4_mobile_font_size: '24'
+preload_local_fonts: 0
+body_font_face: '0Poppins:'
+body_font_face_selector: body
+headings_font_face: '0Poppins:300'
+headings_font_face_selector: 'h1,h2,h3,h4,h5,h6,label,.field--label,.page-title, .html .tp-caption'
+nav_font_face: '0Poppins:300'
+nav_font_face_selector: 'nav,nav ul li,nav a'
+sitename_font_face: '0Poppins:300'
+sitename_font_face_selector: '.site-name, .navbar-brand'
+blockquote_font_face: '0Source+Sans+Pro:300italic'
+blockquote_font_face_selector: 'blockquote, blockquote p'
+portfolio_details: top
+portfolio_sidebar: '4'
+portfolio_images: sidecaption
+region_cards:
+  secondary_header: ''
+  navigation: ''
+  navigation_collapsible: ''
+  highlighted: ''
+  page_title: ''
+  help: ''
+  content_top: ''
+  content: ''
+  content_bottom: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+table_responsive: '-1'
+table: ''
+blockquote_mobile_font_size: '18'
+divider_thickness: '4'
+divider_length: '0'
+divider_position: '1'
+divider_color: ''
+divider_color_custom: '#eeeeee'
+page_title_breadcrumbs: 0
+page_title_home_hide: 1
+page_title_align: left
+page_title_height: '120'
+page_title_animate: '0'
+page_title_image_opacity: '1'
+page_title_image_style: cover
+page_title_image_mode: normal
+page_title_image_position: center_center
+background_image_style: cover
+background_image_position: center_center
+background_image_attachment: fixed
+header_position: 0
+header_top_layout: '0'
+header_style: normal
+header_top_bg_opacity: '1'
+header_top_height: '100'
+header_top_fixed: 1
+header_top_sticky: 1
+header_top_sticky_show: always
+header_top_height_sticky_offset: '60'
+header_top_height_scroll: '50'
+header_top_bg_opacity_scroll: '1'
+navbar_background: ''
+navbar_background_custom: ''
+header_block_background: ''
+header_block_background_custom: ''
+header_block_text_color: ''
+header_block_text_color_custom: ''
+menu_background: ''
+menu_background_custom: ''
+menu_text_color: ''
+menu_text_color_custom: ''
+menu_hover_background: ''
+menu_hover_background_custom: ''
+menu_hover_text_color: ''
+menu_hover_text_color_custom: ''
+dropdown_background: ''
+dropdown_background_custom: ''
+dropdown_text_color: ''
+dropdown_text_color_custom: ''
+dropdown_hover_background: ''
+dropdown_hover_background_custom: ''
+dropdown_hover_text_color: ''
+dropdown_hover_text_color_custom: ''
+header_side_align: left
+header_side_direction: left
+header_side_width: '300'
+hamburger_menu: three-dash
+hamburger_animation: cross
+menu_type: uppercase
+menu_hover: opacity
+menu_border_position: bottom
+menu_border_animate: drop
+menu_border_position_offset: '0'
+menu_border_position_offset_sticky: '0'
+menu_border_size: '2'
+menu_border_color: ''
+menu_border_color_custom: ''
+header_mobile_height: '60'
+secondary_header_hide: hidden_none
+custom_css_site: ".body--dxpr-theme-nav-desktop .dxpr-theme-header--top #logo,\r\n.body--dxpr-theme-nav-mobile #logo\r\n{ \r\n  max-height: 100px !important;\r\n}\r\na:hover {\r\n  text-decoration: none;\r\n}\r\n.gap-5 {\r\n  gap: 0.5em;\r\n}\r\n.path-frontpage .layout {\r\n  margin-bottom: 3em;\r\n}\r\n.path-frontpage .layout--threecol-section {\r\n}\r\n.path-frontpage .layout--threecol-section .layout__region {\r\n  margin: 1em 0;\r\n  padding: 2em;\r\n}\r\n.path-frontpage .layout--threecol-section .layout__region h3 {\r\n  margin-top: 1em;\r\n}\r\n#block-footercopyright {\r\n    display: flex;\r\n    justify-content: center;\r\n    padding-bottom: 1em;\r\n}\r\n.hero {\r\n  background: url('https://alpinepickup.com/sites/default/files/styles/hero/public/2023-01/pmchero.jpeg') center center no-repeat;\r\n}\r\n.p-003 {\r\n  padding: 0 0 3em;\r\n}\r\n.uppercase {\r\n  text-transform: uppercase;\r\n}\r\n.font-bold {\r\n  font-weight: 500;\r\n}\r\n.rounded-md {\r\n    cursor: pointer;\r\n    box-sizing: border-box;\r\n    border-style: solid;\r\n    border-color: currentColor;\r\n    fill: currentColor;\r\n    border-width: 0;\r\n    border-radius: 3px;\r\n    padding: 35px 16px;\r\n    line-height: 0;\r\n}\r\n.bg-green-dark {\r\n  background: #2d3b1e;\r\n}\r\n.bg-green-light {\r\n  background: #7d845f;\r\n}\r\n.bg-cream {\r\n  background: #ecdfc7;\r\n}\r\n.text-green-dark {\r\n  color: #2d3b1e;\r\n}\r\n.text-cream {\r\n  color: #ecdfc7;\r\n}\r\n\r\n.hero h1 {\r\n    color: #ecdfc7;\r\n    font-weight: 500;\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 1em .25em 0;\r\n}\r\n\r\n.hero h3 {\r\n    margin-bottom: 2em;\r\n    font-size: 1.5em;\r\n    padding: 0.5em;\r\n}\r\n#block-useraccountmenu {\r\n    max-width: 1280px;\r\n    padding-left: 60px;\r\n    padding-right: 60px;\r\n}\r\n#block-useraccountmenu .navbar-nav {\r\n  float: right;\r\n  flex-direction: row;\r\n  text-transform: uppercase;\r\n  font-weight: 300;\r\n}\r\n.views-view-grid .row {\r\n  margin: 3em 0;\r\n}\r\n.views-view-grid .row > div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n.quick-info .align-self-center {\r\n  text-align: center;\r\n}\r\n.quick-info h3 {\r\n  color: #2d3b1e;\r\n}\r\n.quick-info p {\r\n  color: #7d845f;\r\n}\r\n.views-view-grid .row .views-field-title h4 {\r\n  text-align: center;\r\n}\r\n.block-views-blockservices-block-2 h2,\r\n.block-views-blockservices-block-1 h2 {\r\n  background: #7d845f;\r\n  color: #fff;\r\n  padding: 0.5em;\r\n}\r\n.image-on-right {\r\n  flex-direction: row-reverse !important;\r\n}\r\n@media (max-width: 800px) { \r\n.image-on-left {\r\nflex-direction: column !important;\r\n}\r\n.image-on-right {\r\nflex-direction: column !important;\r\n}\r\n.image-field,\r\n.text-info {\r\nflex-grow: 1;\r\n    width: 100% !important;\r\n    flex-basis: 100% !important;\r\n    justify-content: center !important;\r\nalign-items: center !important;\r\n}\r\n}\r\n.image-field,\r\n.text-info {\r\nflex-grow: 1;\r\n    width: 50%;\r\n    flex-basis: 50%;\r\npadding: 2em;\r\n}\r\n.sage-bg {\r\n  background : #7d845f;\r\n  color: #fff;\r\n}\r\n.white-bg {\r\n  background : #fff;\r\n  color: #7d845f;\r\n}\r\n.sand-bg {\r\n  background : #ecdfc7;\r\n  color: #7d845f;\r\n}\r\n.text-info .button {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.text-info p {\r\n  margin-bottom: 2em;\r\n}\r\n.sand-bg p,\r\n.white-bg p {\r\n  color: #7d845f;\r\n}\r\n.sand-bg h3,\r\n.white-bg h3 {\r\ncolor: #2d3b1e;\r\n}\r\n.sage-bg h3 {\r\n  color: #ecdfc7;\r\n}\r\n.sage-bg p {\r\n  color: #fff;\r\n}\r\n.text-info h3 {\r\n  font-weight: 400;\r\n}\r\n.ui-accordion .ui-state-default {\r\n  color: #fff;\r\n  background: #7d845f;\r\n  border: 1px solid #ecdfc7 !important;\r\n}\r\n.ui-accordion .ui-state-active {\r\n  border: 1px solid #ecdfc7 !important;\r\ncolor: #ecdfc7 !important;\r\n}\r\nbody.path-product #block-ap-dxpr-content article > div {\r\n  margin: 2em 0;\r\n}\r\nbody.path-product details,\r\n.card-body {\r\n  background: #fff;\r\n}\r\n\r\n.button--add-to-cart,\r\n.btn-primary {\r\n  margin-top: 2em !important;\r\n    text-transform: uppercase;\r\n    padding: 15px;\r\n    font-weight: 600;\r\n}\r\nlegend {\r\n  font-weight: 600;\r\n  color: #fff !important;\r\n  background: #7d845f !important;\r\n}\r\n.ui-widget-content a {\r\n  color: #7d845f;\r\n  text-decoration: none;\r\n  font-weight: 600;\r\n}\r\n.ui-widget-content a:hover {\r\n  color: #ca7339;\r\n  text-decoration: none;\r\n}\r\nbody.user-logged-in #block-ap-dxpr-main-menu ul li:last-child {\r\ndisplay: none;\r\n}"
+custom_javascript_site: ''
+stlink: 0
+block_preset: ''
+block_card: ''
+block_background: ''
+block_background_custom: '#eeeeee'
+block_padding: '0'
+block_border_radius: '0'
+block_border: '0'
+block_border_color: ''
+block_border_color_custom: '#eeeeee'
+title_font_size: h3
+title_align: left
+title_card: ''
+title_background: ''
+title_background_custom: '#eeeeee'
+title_padding: '0'
+title_border: '0'
+title_border_radius: '0'
+title_border_color: ''
+title_border_color_custom: '#eeeeee'
+title_sticker: 0
+block_divider: 0
+block_divider_custom: 0
+block_divider_color: ''
+block_divider_color_custom: '#eeeeee'
+block_divider_thickness: '4'
+block_divider_length: '10'
+block_divider_spacing: '20'
+page_title_image: ''
+background_image: ''
+hidden_regions:
+  navigation: 0
+  navigation_collapsible: 0
+  secondary_header: 0
+  page_title: 0
+  highlighted: 0
+  header: 0
+  content_top: 0
+  content: 0
+  content_bottom: 0
+  sidebar_first: 0
+  sidebar_second: 0
+  footer: 0
+popover_placement: top
+tooltip_placement: 'auto top'
+modal_enabled: 0
+modal_jquery_ui_bridge: 0
+cdn_provider: ''
+second_header_sticky: 0
+mark_menu_with_children: 0
+dropdown_width: '160'
+header_mobile_fixed: 0
+background_image_path: ''
+page_title_breadcrumbs_align: right
+page_title_breadcrumbs_separator: /
+title_type:
+  uppercase: 0
+  bold: 0
+  italic: 0
+page_title_image_path: ''

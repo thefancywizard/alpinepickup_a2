@@ -1,0 +1,11 @@
+uuid: 0202253f-ed27-4c0a-84ac-4bc81c9814e7
+langcode: en
+status: true
+dependencies: {  }
+id: booking_calendar
+block_id: 'block_content:7d86fc0a-105d-4b57-ad1b-d51f57bb4948'
+category: blocks
+label: 'Booking calendar'
+image_path: ''
+image_alt: ''
+weight: -100

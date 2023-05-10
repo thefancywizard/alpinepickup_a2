@@ -1,0 +1,10 @@
+uuid: a8da1506-9fad-4ea2-aac5-98b387a1b264
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.cart
+label: 'Cart image'
+targetEntityType: media
+cache: true

@@ -1,0 +1,12 @@
+uuid: 142abe7b-609e-43b5-a5c3-ba4aa955b8f8
+langcode: en
+status: true
+dependencies: {  }
+id: base
+label: Base
+font_url: 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#regular'
+fallback: ''
+selectors: .fontyourface
+theme: alpine_pickup
+style: null
+weight: null

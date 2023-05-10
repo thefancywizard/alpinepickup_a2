@@ -1,0 +1,27 @@
+uuid: 0e5446ae-56a3-46ae-a98f-3b50f2039a30
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ap_dxpr
+_core:
+  default_config_hash: sOBfLFUB4t3yuAG5cmsbqVnN31761mx5SUHgrjS3Lpk
+id: ap_dxpr_main_menu
+theme: ap_dxpr
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 9
+  expand_all_items: false
+visibility: {  }

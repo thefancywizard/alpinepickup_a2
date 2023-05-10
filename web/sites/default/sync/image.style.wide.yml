@@ -1,0 +1,17 @@
+uuid: 559c0e32-a1e8-46ff-a1a8-b7679646e3cf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
+name: wide
+label: 'Wide (1090)'
+effects:
+  80efc0fd-c227-4298-8dae-0fb54655824c:
+    uuid: 80efc0fd-c227-4298-8dae-0fb54655824c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 580
+      height: 400
+      anchor: center-center

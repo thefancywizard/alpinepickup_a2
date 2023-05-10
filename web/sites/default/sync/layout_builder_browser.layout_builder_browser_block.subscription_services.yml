@@ -1,0 +1,11 @@
+uuid: 89fe3199-722a-4f4c-91ad-ff79480e5ba8
+langcode: en
+status: true
+dependencies: {  }
+id: subscription_services
+block_id: 'views_block:services-block_2'
+category: blocks
+label: 'Subscription Services'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,11 @@
+uuid: 74862709-9610-4555-a020-ff3077099c05
+langcode: en
+status: true
+dependencies: {  }
+id: main_navigation
+block_id: 'system_menu_block:main'
+category: menus
+label: 'Main navigation'
+image_path: ''
+image_alt: ''
+weight: -100

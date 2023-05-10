@@ -1,0 +1,41 @@
+uuid: 261bc729-4d75-4742-ab45-4a653cea8020
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quick_info
+    - field.field.block_content.quick_info.body
+    - field.field.block_content.quick_info.field_quick_info_icon
+    - field.field.block_content.quick_info.field_quick_info_title
+  module:
+    - text
+id: block_content.quick_info.default
+targetEntityType: block_content
+bundle: quick_info
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_quick_info_icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: cart
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_quick_info_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

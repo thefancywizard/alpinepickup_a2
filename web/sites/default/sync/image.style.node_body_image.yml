@@ -1,0 +1,15 @@
+uuid: 5d3e7904-987f-4a6c-934f-e344fb48c50d
+langcode: en
+status: true
+dependencies: {  }
+name: node_body_image
+label: 'Node body image'
+effects:
+  b42f675c-4f6e-4662-8f8a-3b73be9e6444:
+    uuid: b42f675c-4f6e-4662-8f8a-3b73be9e6444
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false

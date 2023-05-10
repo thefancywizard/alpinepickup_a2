@@ -1,0 +1,14 @@
+uuid: 54200459-9775-4f5a-9f5a-7d55eebd0704
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DC-4Lq_F9S5_qkrZdgsREpzrjqz658aL6IJcvIOozCc
+id: commerce_recurring
+label: 'Commerce Recurring'
+backend: database
+backend_configuration:
+  lease_time: 300
+processor: cron
+processing_time: 180
+locked: true

@@ -1,0 +1,23 @@
+uuid: 5b95be15-4740-4f89-9792-6164416830bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: services
+label: Services
+type: 'canonical_entities:commerce_product'
+pattern: 'services/[commerce_product:title]'
+selection_criteria:
+  ad58b135-77a7-4ba2-84e8-867f30b31aaf:
+    id: 'entity_bundle:commerce_product'
+    negate: false
+    uuid: ad58b135-77a7-4ba2-84e8-867f30b31aaf
+    context_mapping:
+      commerce_product: commerce_product
+    bundles:
+      default: default
+      subscription: subscription
+selection_logic: and
+weight: -5
+relationships: {  }

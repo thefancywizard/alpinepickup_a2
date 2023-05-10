@@ -1,0 +1,11 @@
+uuid: 66dddad8-6183-4710-8c02-ba93db44df28
+langcode: en
+status: true
+dependencies: {  }
+id: homepage_content_2
+block_id: 'block_content:eaadbcbd-e8af-4c04-ad03-831de0c90198'
+category: blocks
+label: 'Homepage content 2'
+image_path: ''
+image_alt: ''
+weight: -100

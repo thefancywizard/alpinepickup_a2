@@ -1,0 +1,22 @@
+uuid: 18cb58b4-716f-4576-b364-00d5181f36a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ap_dxpr
+_core:
+  default_config_hash: FR6TscQ_wWvu_Oif0Ha6seHBgJwsupKvwisRs1yTxYw
+id: ap_dxpr_content
+theme: ap_dxpr
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

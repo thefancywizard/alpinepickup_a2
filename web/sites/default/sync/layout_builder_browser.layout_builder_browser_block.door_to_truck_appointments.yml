@@ -1,0 +1,11 @@
+uuid: eadcbe8b-d7a8-4fcd-a06a-c63fe1473bb5
+langcode: en
+status: true
+dependencies: {  }
+id: door_to_truck_appointments
+block_id: 'block_content:824468e2-cc00-49b6-9b01-d26d143c85a2'
+category: blocks
+label: 'Door-to-truck appointments'
+image_path: ''
+image_alt: ''
+weight: -100

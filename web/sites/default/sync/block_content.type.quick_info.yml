@@ -1,0 +1,8 @@
+uuid: 0b16232e-adc4-423f-bc63-5df63034b280
+langcode: en
+status: true
+dependencies: {  }
+id: quick_info
+label: 'Quick info'
+revision: 0
+description: 'Displays an icon, title, and short description.'

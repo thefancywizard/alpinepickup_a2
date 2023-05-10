@@ -1,0 +1,42 @@
+uuid: 567196ba-6e36-4095-96a0-298698f709d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_block
+    - field.field.block_content.hero_block.field_background_image
+    - field.field.block_content.hero_block.field_hero_buttons
+    - field.field.block_content.hero_block.field_hero_subtitle
+    - field.field.block_content.hero_block.field_hero_title
+  module:
+    - ap_field
+id: block_content.hero_block.default
+targetEntityType: block_content
+bundle: hero_block
+mode: default
+content:
+  field_hero_buttons:
+    type: multibutton
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_hero_subtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_hero_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_background_image: true

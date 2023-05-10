@@ -1,0 +1,24 @@
+uuid: 42a19398-e767-46f0-9515-96c49502ff46
+langcode: en
+status: true
+dependencies: {  }
+id: hourly
+label: Hourly
+displayLabel: 'Hourly (for testing)'
+billingType: prepaid
+combineSubscriptions: false
+retrySchedule:
+  - 1
+  - 3
+  - 5
+unpaidSubscriptionState: canceled
+plugin: fixed
+configuration:
+  trial_interval: {  }
+  interval:
+    number: 1
+    unit: hour
+  start_month: 1
+  start_day: 1
+prorater: full_price
+proraterConfiguration: {  }

@@ -1,0 +1,24 @@
+uuid: a74b914a-ff6a-4531-a297-eed763cb02ab
+langcode: en
+status: true
+dependencies: {  }
+id: ca_sales_tax
+label: 'CA Sales Tax'
+plugin: custom
+configuration:
+  display_inclusive: true
+  display_label: tax
+  round: true
+  rates:
+    -
+      id: ae11a472-c630-41fc-b85e-d5ab59b04894
+      label: 'California Sales Tax'
+      percentage: '0.0725'
+  territories:
+    -
+      country_code: US
+      administrative_area: CA
+      locality: null
+      dependent_locality: null
+conditions: {  }
+conditionOperator: AND

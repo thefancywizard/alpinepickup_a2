@@ -1,0 +1,26 @@
+uuid: d4b629ef-befa-4b0f-b873-8881c244afa6
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_braintree
+id: braintree_live
+label: 'Braintree live'
+weight: null
+plugin: braintree_hostedfields
+configuration:
+  display_label: Braintree
+  mode: live
+  payment_method_types:
+    - credit_card
+    - paypal
+  collect_billing_information: true
+  merchant_id: jpgyk55cthwvr95k
+  public_key: zwjq6mjjc77yz8n5
+  private_key: eef3a0207c018d395543f6ba02f36d9d
+  merchant_account_id:
+    USD: alpinepickup_instant
+  3d_secure: ''
+  enable_credit_card_icons: true
+conditions: {  }
+conditionOperator: AND

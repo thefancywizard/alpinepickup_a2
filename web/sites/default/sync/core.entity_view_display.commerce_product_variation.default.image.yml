@@ -1,0 +1,34 @@
+uuid: a6d11fe9-886d-4f6c-9cdc-12e1b00dd8e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.default
+    - core.entity_view_mode.commerce_product_variation.image
+    - field.field.commerce_product_variation.default.field_product_image
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: commerce_product_variation.default.image
+targetEntityType: commerce_product_variation
+bundle: default
+mode: image
+content:
+  field_product_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  list_price: true
+  price: true
+  product_id: true
+  sku: true
+  title: true

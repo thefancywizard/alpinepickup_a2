@@ -1,0 +1,21 @@
+uuid: eed6dc4c-f40a-4bcd-b06d-03b67d3b4ce7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_image
+    - field.storage.block_content.field_cta_button
+  module:
+    - ap_field
+id: block_content.text_with_image.field_cta_button
+field_name: field_cta_button
+entity_type: block_content
+bundle: text_with_image
+label: 'CTA button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: multibutton

@@ -1,0 +1,56 @@
+uuid: 35a15836-368e-44b0-9593-d465a5de4eee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_block
+    - field.field.block_content.hero_block.field_background_image
+    - field.field.block_content.hero_block.field_hero_buttons
+    - field.field.block_content.hero_block.field_hero_subtitle
+    - field.field.block_content.hero_block.field_hero_title
+  module:
+    - ap_field
+    - media_library
+id: block_content.hero_block.default
+targetEntityType: block_content
+bundle: hero_block
+mode: default
+content:
+  field_background_image:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_hero_buttons:
+    type: multibutton
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_hero_subtitle:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_hero_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

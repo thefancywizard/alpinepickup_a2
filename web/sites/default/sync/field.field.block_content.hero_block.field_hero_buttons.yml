@@ -1,0 +1,21 @@
+uuid: e814368e-549a-4799-ba13-1651086018e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_block
+    - field.storage.block_content.field_hero_buttons
+  module:
+    - ap_field
+id: block_content.hero_block.field_hero_buttons
+field_name: field_hero_buttons
+entity_type: block_content
+bundle: hero_block
+label: 'Hero buttons'
+description: 'Add buttons to the hero block.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: multibutton

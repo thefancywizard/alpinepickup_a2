@@ -1,0 +1,11 @@
+uuid: 31f6814b-4681-4823-b540-d5540f9f0bda
+langcode: en
+status: true
+dependencies: {  }
+id: approved_by_pmcpoa
+block_id: 'block_content:94b49838-5c44-49c1-b979-81dc4113f8a0'
+category: blocks
+label: 'Approved by PMCPOA'
+image_path: ''
+image_alt: ''
+weight: -100

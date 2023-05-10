@@ -1,0 +1,20 @@
+uuid: 6441823f-1990-477a-b126-eaf244c4daaa
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ap_dxpr
+_core:
+  default_config_hash: 72nlwRjqiXBAwD4_Wzf9YVMhGeEnqWlHF8NS6KoI7Js
+id: ap_dxpr_local_actions
+theme: ap_dxpr
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

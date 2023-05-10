@@ -1,0 +1,11 @@
+uuid: a954b146-368c-4f2f-bccd-a5f8cea2aa8e
+langcode: en
+status: true
+dependencies: {  }
+id: technology_convenience
+block_id: 'block_content:116cc243-12dc-4f67-a814-16cb1fbef8d6'
+category: blocks
+label: 'Technology = Convenience'
+image_path: ''
+image_alt: ''
+weight: -100

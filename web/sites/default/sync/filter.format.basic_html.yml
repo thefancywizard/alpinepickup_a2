@@ -1,0 +1,53 @@
+uuid: 34863a86-347e-4e1c-adba-2264251f9479
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.node_body_image
+  module:
+    - editor
+    - media
+_core:
+  default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
+name: 'Basic HTML'
+format: basic_html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <br> <span> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <h1> <pre>'
+      filter_html_help: false
+      filter_html_nofollow: false
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 7
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: false
+    weight: 8
+    settings: {  }
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: false
+    weight: 11
+    settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: node_body_image
+      allowed_view_modes:
+        node_body_image: node_body_image
+      allowed_media_types:
+        image: image

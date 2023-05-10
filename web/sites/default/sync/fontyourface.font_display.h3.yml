@@ -1,0 +1,12 @@
+uuid: 6189e83a-d235-4104-85b1-44576158fa81
+langcode: en
+status: true
+dependencies: {  }
+id: h3
+label: H3
+font_url: 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#500'
+fallback: ''
+selectors: '.fontyourface h3'
+theme: alpine_pickup
+style: null
+weight: null

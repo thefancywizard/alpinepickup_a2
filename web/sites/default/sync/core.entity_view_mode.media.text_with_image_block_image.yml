@@ -1,0 +1,10 @@
+uuid: 48b08a30-fa0b-49b9-86cb-fc27bb1505fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.text_with_image_block_image
+label: 'Text with image block image'
+targetEntityType: media
+cache: true

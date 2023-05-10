@@ -1,0 +1,29 @@
+uuid: a589ca1a-e31a-435f-acea-f6e840018840
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quick_info
+    - field.storage.block_content.field_quick_info_icon
+    - media.type.image
+id: block_content.quick_info.field_quick_info_icon
+field_name: field_quick_info_icon
+entity_type: block_content
+bundle: quick_info
+label: 'Quick info icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

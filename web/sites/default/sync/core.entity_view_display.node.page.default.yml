@@ -1,0 +1,134 @@
+uuid: 55ac6d0a-fe6f-4d68-869c-3661d81c8e8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_faq
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
+  module:
+    - faqfield
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Hero
+          context_mapping: {  }
+        components:
+          27862330-ffb6-4bc5-af85-7e42d6338763:
+            uuid: 27862330-ffb6-4bc5-af85-7e42d6338763
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_faq'
+              label: FAQ
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: faqfield_accordion
+                label: above
+                settings:
+                  active: 0
+                  heightStyle: content
+                  collapsible: false
+                  event: click
+                  animate:
+                    easing: linear
+                    duration: 200
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_threecol_section
+        layout_settings:
+          label: 'Quick info'
+          context_mapping: {  }
+          column_widths: 33-34-33
+        components: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Email signup'
+          context_mapping: {  }
+        components: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Body
+          context_mapping: {  }
+        components:
+          06a5f80c-9f41-48a8-8d34-66e713e62693:
+            uuid: 06a5f80c-9f41-48a8-8d34-66e713e62693
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          abec5411-ebcd-49bd-95f5-a609039ccf1a:
+            uuid: abec5411-ebcd-49bd-95f5-a609039ccf1a
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  field_faq:
+    type: faqfield_accordion
+    label: above
+    settings:
+      active: 0
+      heightStyle: auto
+      collapsible: false
+      event: click
+      animate:
+        easing: linear
+        duration: 200
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+hidden:
+  layout_builder__layout: true

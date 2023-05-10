@@ -1,0 +1,47 @@
+uuid: 6f71df4f-b4b0-4c4f-a116-621dd634e918
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - layout_builder
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer url aliases'
+  - 'configure any layout'
+  - 'create and edit custom blocks'
+  - 'create page content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

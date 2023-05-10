@@ -1,0 +1,8 @@
+uuid: 6fcb44ad-cdd4-49f6-b5b7-1fa926356497
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_image
+label: 'Text with image'
+revision: 0
+description: 'Displays a title, body text and a featured image. '

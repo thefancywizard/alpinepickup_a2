@@ -1,0 +1,10 @@
+uuid: 08de874c-9439-44a2-a86c-d7541fe71211
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.product_de
+label: 'Product detail page image'
+targetEntityType: media
+cache: true

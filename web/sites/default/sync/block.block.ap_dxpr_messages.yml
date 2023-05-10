@@ -1,0 +1,22 @@
+uuid: 1dc5ae84-18f1-4f77-9481-589564934cec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ap_dxpr
+_core:
+  default_config_hash: T7gZEkBqqElnOklin4m1rfJYv28ry5eY-FjEDOrHGTU
+id: ap_dxpr_messages
+theme: ap_dxpr
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

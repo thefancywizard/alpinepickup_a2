@@ -1,0 +1,28 @@
+uuid: a55fc70c-8eb3-4b3d-9121-d726c16e9314
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_checkout
+    - commerce_order
+    - commerce_product
+    - contact
+    - media
+    - profile
+    - system
+id: anonymous
+label: 'Anonymous user'
+weight: 4
+is_admin: null
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create default commerce_order'
+  - 'create recurring commerce_order'
+  - 'view default commerce_product'
+  - 'view media'
+  - 'view own profile'
+  - 'view subscription commerce_product'

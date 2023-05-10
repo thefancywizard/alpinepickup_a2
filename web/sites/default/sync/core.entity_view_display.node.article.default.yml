@@ -1,0 +1,23 @@
+uuid: 687c33de-37ff-4f84-a1cf-f781240ef4d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - node.type.article
+  module:
+    - user
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment: true
+  field_image: true

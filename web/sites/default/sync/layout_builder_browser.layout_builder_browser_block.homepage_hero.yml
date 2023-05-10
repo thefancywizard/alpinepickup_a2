@@ -1,0 +1,11 @@
+uuid: 7f8e3c1c-6a70-419d-9023-3b0c6e6c12a1
+langcode: en
+status: true
+dependencies: {  }
+id: homepage_hero
+block_id: 'block_content:d6842d8b-a26f-4569-9ccd-8732b4995a22'
+category: blocks
+label: 'Homepage hero'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,11 @@
+uuid: c7a911d1-0106-458f-9587-306436b95495
+langcode: en
+status: true
+dependencies: {  }
+id: chris_perry
+block_id: 'block_content:648e68be-c300-4876-a9a0-365b6d6174c7'
+category: blocks
+label: 'Chris Perry'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,23 @@
+uuid: 14b6d31d-f744-4fdc-a432-033d1bdbd5d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_image
+    - field.storage.block_content.field_color_scheme
+  module:
+    - options
+id: block_content.text_with_image.field_color_scheme
+field_name: field_color_scheme
+entity_type: block_content
+bundle: text_with_image
+label: 'Color scheme'
+description: 'Choose a color scheme for this component.'
+required: true
+translatable: false
+default_value:
+  -
+    value: white-bg
+default_value_callback: ''
+settings: {  }
+field_type: list_string

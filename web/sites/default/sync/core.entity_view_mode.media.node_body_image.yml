@@ -1,0 +1,10 @@
+uuid: 222d5cd5-6e1e-4863-9c95-56bc8a773edc
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.node_body_image
+label: 'Node body image'
+targetEntityType: media
+cache: true

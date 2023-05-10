@@ -1,0 +1,22 @@
+uuid: 22e5bf22-4b37-4905-a5f5-1f4992c6a900
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faq
+    - node.type.page
+  module:
+    - faqfield
+id: node.page.field_faq
+field_name: field_faq
+entity_type: node
+bundle: page
+label: FAQ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  default_format: plain_text
+field_type: faqfield
