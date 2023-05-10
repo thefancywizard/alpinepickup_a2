@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/deepsea1/public_html/thedungeonsociety
+    - export DEPLOYPATH=/home/deepsea1/public_html/thefancywizard
     - /bin/cp -a * $DEPLOYPATH
