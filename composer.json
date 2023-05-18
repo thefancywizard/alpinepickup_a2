@@ -42,6 +42,7 @@
         "drupal/gin_lb": "^1.0@RC",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/google_analytics": "^4.0",
         "drupal/inline_entity_form": "^1.0-rc6",
         "drupal/layout_builder_browser": "^1.4",
         "drupal/layout_builder_iframe_modal": "^1.2",

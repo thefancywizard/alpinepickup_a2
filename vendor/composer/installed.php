@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '771328a8e25410afc3446c84fd472bf7a4e35d83',
+        'reference' => '7219f2d289d31e29d145ae3d5560689af3be120b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -875,6 +875,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/google_analytics' => array(
+            'pretty_version' => '4.0.2',
+            'version' => '4.0.2.0',
+            'reference' => '4.0.2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/google_analytics',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/hal' => array(
             'pretty_version' => '1.0.3',
             'version' => '1.0.3.0',
@@ -1004,7 +1013,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '771328a8e25410afc3446c84fd472bf7a4e35d83',
+            'reference' => '7219f2d289d31e29d145ae3d5560689af3be120b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
