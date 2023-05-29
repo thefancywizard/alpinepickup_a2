@@ -55,6 +55,7 @@
         "drupal/services": "^4.0@beta",
         "drupal/smtp": "^1.2",
         "drupal/tab_toolbar": "^1.0@beta",
+        "drupal/webform": "^6.2@beta",
         "drush/drush": "^11.0"
     },
     "conflict": {
