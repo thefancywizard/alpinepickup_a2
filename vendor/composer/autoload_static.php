@@ -103,6 +103,7 @@ class ComposerStaticInit24a8b4c760deb3fa8e528ebf4eefa489
         array (
             'Roomify\\Bat\\' => 12,
             'Robo\\' => 5,
+            'ReCaptcha\\' => 10,
             'RRule\\' => 6,
         ),
         'P' => 
@@ -368,6 +369,10 @@ class ComposerStaticInit24a8b4c760deb3fa8e528ebf4eefa489
         'Robo\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
         ),
         'RRule\\' => 
         array (

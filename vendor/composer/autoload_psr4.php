@@ -49,6 +49,7 @@ return array(
     'Sainsburys\\Guzzle\\Oauth2\\' => array($vendorDir . '/sainsburys/guzzle-oauth2-plugin/src'),
     'Roomify\\Bat\\' => array($vendorDir . '/roomify/bat/src'),
     'Robo\\' => array($vendorDir . '/consolidation/robo/src'),
+    'ReCaptcha\\' => array($vendorDir . '/google/recaptcha/src/ReCaptcha'),
     'RRule\\' => array($vendorDir . '/rlanvin/php-rrule/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
